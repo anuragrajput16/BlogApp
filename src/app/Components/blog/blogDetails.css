@@ -1,0 +1,33 @@
+.blog-details{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    /* border: 1px solid salmon; */
+}
+.card img{
+border-radius: 5px;
+}
+.blog-details-img{
+   height: 200px; 
+}
+#blog-card-logo{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+width: 100px;
+
+
+}
+#blog-like-btn{
+border: none;
+}
+#blog-like-btn img{
+width: 40px;
+}
+
+#blog-comment-btn{
+border: none;
+}
+#blog-comment-btn img{
+    width: 40px;
+}

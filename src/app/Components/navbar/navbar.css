@@ -1,0 +1,62 @@
+.blog-navbar {
+  display: flex;
+  /* flex-direction: row; */
+  /* align-items: baseline; */
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border: 1px solid #000; */
+}
+#blog-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  /* border: 1px solid salmon; */
+  justify-content: space-evenly;
+  margin: 0px 0px 0px 0px;
+  width: 40%;
+}
+#blog-logo {
+  width: 150px;
+  margin: 0px 0px 0px 50px;
+}
+
+#blog-myPost {
+  color: black;
+  font-weight: bold;
+}
+#blog-blog {
+  color: black;
+  font-weight: bold;
+}
+
+
+
+.blog-nav-btn {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#blog-login {
+  margin: 0px 0px 0px 0px;
+
+  padding: 10px 5px 10px 10px;
+
+  font-size: 12px;
+}
+#blog-login:hover {
+  color: white;
+  background-color: rgb(33, 33, 240);
+}
+#blog-signup {
+  margin: 0px 0px 0px 0px;
+
+  padding: 10px 10px 10px 5px;
+  font-size: 12px;
+}
+#blog-signup:hover {
+  color: white;
+  background-color: rgb(33, 33, 240);
+}

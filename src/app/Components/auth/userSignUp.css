@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+.signUp-parent {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  height: auto;
+}
+
+.signUp-left {
+  margin: 60px 0px 0px 150px;
+
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  height: auto;
+
+  /* border: 1px solid rgb(131, 17, 17); */
+}
+#signUp-heading {
+  margin: 0px 0px 15px 0px;
+  font-size: 40px;
+  font-weight: bolder;
+  /* border: 1px solid rgb(49, 17, 131); */
+}
+#signUp-form {
+  margin: 0px 0px 20px 0px;
+  /* border: 1px solid rgb(17, 131, 85); */
+  width: auto;
+}
+.signUp-form-data{
+    width: 450px;
+    font-size: 15px;
+    margin: 20px 0px 0px 0px;
+    padding:0px 0px 0px 3px ;
+    border: none;
+    border-bottom: 1px solid rgb(187, 180, 180);
+}
+.signUp-validation{
+  font-size: 12px;
+  color: red;
+  margin: 0px 0px 0px 0px;
+}
+.register-button {
+margin: 20px 0px 0px 0px;
+}
+
+/* ------ Right Side div -- */
+.signUp-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rgb(17, 131, 85); */
+}
+#signUp-img {
+  margin: 100px 0px 0px 80px;
+  width: auto;
+  height: auto;
+  /* border: 2px solid rgb(17, 131, 70); */
+}
+#signUp-img img {
+  width: 400px;
+  height: auto;
+}
+
+#signIn-link {
+  font-size: 18px;
+  margin: 0px 0px 0px 80px;
+  
+  
+
+  /* border: 5px solid rgb(131, 84, 17); */
+}
+#signIn-link a {
+  font-size: 18px;
+  color: black;
+  text-decoration-color: rgb(73, 73, 255);
+
+  /* border: 5px solid rgb(131, 84, 17); */
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+.login-parent {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  height: auto;
+}
+
+/* left side div
+ */
+.login-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rgb(17, 131, 85); */
+}
+#login-img {
+  margin: 100px 0px 0px 0px;
+  width: auto;
+  height: auto;
+  /* border: 2px solid rgb(17, 131, 70); */
+}
+#login-img img {
+  width: 500px;
+  height: auto;
+}
+
+#login-link {
+  font-size: 18px;
+  margin: 0px 0px 0px 50px;
+  
+  
+
+  /* border: 1px solid rgb(131, 84, 17); */
+}
+#login-link a {
+  font-size: 18px;
+  color: black;
+  text-decoration-color: rgb(73, 73, 255);
+
+  /* border: 1px solid rgb(131, 84, 17); */
+}
+
+
+/* Right side div */
+ .login-right {
+  margin: 60px 0px 0px 100px;
+width: 50%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  height: auto;
+
+  /* border: 1px solid rgb(131, 17, 17); */
+}
+#login-heading {
+  margin: 0px 0px 0px 0px;
+  font-size: 45px;
+  font-weight: bolder;
+  /* border: 1px solid rgb(49, 17, 131); */
+}
+#login-form {
+  margin: 0px 0px 0px 0px;
+  /* border: 1px solid rgb(17, 131, 85); */
+  width: auto;
+}
+.login-form-data{
+  font-size: 17px;
+    width: 500px;
+    margin: 30px 0px 0px 0px;
+    padding:0px 0px 0px 3px ;
+    border: none;
+    border-bottom: 1px solid rgb(187, 180, 180);
+}
+.login-validation{
+  color: red;
+  margin: 0px 0px 0px 0px;
+}
+.login-button {
+margin: 30px 0px 0px 0px;
+} 
+
+.login-extra-link{
+  display: flex;
+  flex-direction:row;
+  align-items: baseline;
+  
+  
+  /* border:1px solid black; */
+  margin: 180px 0px 0px 0px;
+}
+.or-login-with{
+margin: 0px 0px 0px 0px;
+  /* border: 1px solid blueviolet; */
+}
+.or-login-with img{
+  width: 30px;
+  margin: 0px 0px 0px 20px;
+}
